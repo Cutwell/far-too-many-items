@@ -2,4 +2,3 @@
 *.json
 *.mcfunction
 .DS_STORE
-*.mc_meta
