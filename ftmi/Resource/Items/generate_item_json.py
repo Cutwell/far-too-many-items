@@ -3,9 +3,9 @@ import json
 
 def generate_item_json(PATH, verbose=False):
     # get list of items
-    baseitems = os.listdir(path=os.path.join(PATH, "/Far-Too-Many-Items-Resource-2.0/assets/minecraft/models/item"))
-    compbaseitems = os.listdir(path=os.path.join(PATH, "/Far-Too-Many-Items-Resource-Template/assets/minecraft/textures/all_items"))
-    modifieritems = os.listdir(path=os.path.join(PATH, "/Far-Too-Many-Items-Resource-Template/assets/minecraft/textures/recipe_modifiers"))
+    baseitems = os.listdir(path=os.path.join(PATH, "Far-Too-Many-Items-Resource-Template", "assets", "minecraft", "models", "item"))
+    compbaseitems = os.listdir(path=os.path.join(PATH, "Far-Too-Many-Items-Resource-Template", "assets", "minecraft", "textures", "all_items"))
+    modifieritems = os.listdir(path=os.path.join(PATH, "Far-Too-Many-Items-Resource-Template", "assets", "minecraft", "textures", "recipe_modifiers"))
 
     if ".DS_Store" in compbaseitems:
         compbaseitems.remove(".DS_Store")
@@ -42,7 +42,7 @@ def generate_item_json(PATH, verbose=False):
                 predicates.append(pred)
 
         # get contents
-        filepath = os.path.join(PATH, "/Far-Too-Many-Items-Resource-2.0/assets/minecraft/models/item", filename)
+        filepath = os.path.join(PATH, "Far-Too-Many-Items-Resource-Template", "assets", "minecraft", "models", "item", filename)
         with open(filepath, 'r') as file:
             raw = file.read()
             jsondict = json.loads(raw)
@@ -51,7 +51,7 @@ def generate_item_json(PATH, verbose=False):
             jsondict.update({"overrides":predicates})
 
         # save contents back to output dir
-        savepath = os.path.join(PATH, '/Far-Too-Many-Items-Resource-2.0/assets/minecraft/models/item/{}'.format(filename))
+        savepath = os.path.join(PATH, "Far-Too-Many-Items-Resource-2.0", "assets", "minecraft", "models", "item", "{}".format(filename))
         with open(savepath, 'w') as save:
             jsonraw = json.dumps(jsondict)
             save.write(jsonraw)

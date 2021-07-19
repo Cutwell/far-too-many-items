@@ -43,7 +43,7 @@ def generate_functions(PATH, verbose=False):
     }
 
     # get list of items
-    bases = os.listdir(path=os.path.join(PATH, "/Far-Too-Many-Items-Resource-Template/assets/minecraft/textures/recipe_bases"))
+    bases = os.listdir(path=os.path.join(PATH, "Far-Too-Many-Items-Resource-Template", "assets", "minecraft", "textures", "recipe_bases"))
 
     if ".DS_Store" in bases:
         bases.remove(".DS_Store")
@@ -69,7 +69,7 @@ def generate_functions(PATH, verbose=False):
 
     clear @s minecraft:knowledge_book 1""".format(name=name, mod=mod, _id=_id+1, attribute_name=attribute_name, attribute_amount=attribute_amount, o="{", x="}")
 
-                savepath = os.path.join(PATH, "/Far-Too-Many-Items-Datapack-2.0/data/ftmi/functions/{}{}.mcfunction".format(mod.replace("_", ""), name.replace("_", "")))
+                savepath = os.path.join(PATH, "Far-Too-Many-Items-Datapack-2.0", "data", "ftmi", "functions", "{}{}.mcfunction".format(mod.replace("_", ""), name.replace("_", "")))
 
                 try:
                     with open(savepath, 'w') as save:

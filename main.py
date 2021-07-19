@@ -2,12 +2,9 @@
 import os
 import json
 import time
-import platform
 
-import ftmi
-from ftmi import Data
-from ftmi import Resource
-from ftmi.Resource import Items
+from ftmi.Data import *
+from ftmi.Resource.Items import *
 
 # detect OS, calculate paths
 PATH = os.getcwd()
@@ -16,54 +13,54 @@ PATH = os.getcwd()
 def build(PATH, verbose=False):
     start_time = time.time()
 
-    if os.path.exists(os.path.join(PATH, "/Far-Too-Many-Items-Resource-2.0")):
+    if os.path.exists(os.path.join(PATH, "Far-Too-Many-Items-Resource-2.0")):
         print("ERROR: Please ensure '/Far-Too-Many-Items-Resource-2.0' does not exist in the working directory before continuing.")
         
     else:
-        print("Building resource pack at {}".format(os.path.join(PATH, "/Far-Too-Many-Items-Resource-2.0")))
+        print("Building resource pack at {}".format(os.path.join(PATH, "Far-Too-Many-Items-Resource-2.0")))
         print("\tGenerating file structure")
-        Items.generate_file_structure(PATH, verbose)
+        generate_resourcepack_structure.generate_resourcepack_structure(PATH, verbose)
 
         print("\tGenerating item textures")
-        Items.generate_item_texture(PATH, verbose)
+        generate_item_texture.generate_item_texture(PATH, verbose)
 
         print("\t\tGenerating crossbow standby textures")
-        Items.generate_crossbow_standby_json(PATH, verbose)
+        generate_crossbow_standby_json.generate_crossbow_standby_json(PATH, verbose)
 
         print("\tGenerating item json")
-        Items.generate_item_json(PATH, verbose)
+        generate_item_json.generate_item_json(PATH, verbose)
 
         print("\tGenerating custom item texture json")
-        Items.generate_custom_item_texture_json(PATH, verbose)
+        generate_custom_item_texture_json.generate_custom_item_texture_json(PATH, verbose)
 
         print("\Overwriting bow json")
-        Items.bow_overwrite(PATH, verbose)
+        bow_overwrite.bow_overwrite(PATH, verbose)
 
         print("\Overwriting clock json")
-        Items.clock_overwrite(PATH, verbose)
+        clock_overwrite.clock_overwrite(PATH, verbose)
 
         print("\Overwriting crossbow json")
-        Items.crossbow_overwrite(PATH, verbose)
+        crossbow_overwrite.crossbow_overwrite(PATH, verbose)
 
         print("\Overwriting fishing rod json")
-        Items.fishing_rod_overwrite(PATH, verbose)
+        fishing_rod_overwrite.fishing_rod_overwrite(PATH, verbose)
 
     if os.path.exists(os.path.join(PATH, "/Far-Too-Many-Items-Datapack-2.0")):
         print("ERROR: Please ensure '/Far-Too-Many-Items-Datapack-2.0' does not exist in the working directory before continuing.")
 
     else:
-        print("Building data pack at {}".format(os.path.join(PATH, "/Far-Too-Many-Items-Datapack-2.0")))
+        print("Building data pack at {}".format(os.path.join(PATH, "Far-Too-Many-Items-Datapack-2.0")))
         print("\tGenerating file structure")
-        Data.generate_file_structure(PATH, verbose)
+        generate_datapack_structure.generate_datapack_structure(PATH, verbose)
 
         print("\tGenerating advancements")
-        Data.generate_advancements(PATH, verbose)
+        generate_advancements.generate_advancements(PATH, verbose)
 
         print("\tGenerating functions")
-        Data.generate_functions(PATH, verbose)
+        generate_functions.generate_functions(PATH, verbose)
 
         print("\tGenerating recipes")
-        Data.generate_recipes(PATH, verbose)
+        generate_recipes.generate_recipes(PATH, verbose)
 
     finish_time = time.time() - start_time
     print("Finished in {} seconds.".format(finish_time))

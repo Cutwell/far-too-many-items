@@ -3,8 +3,8 @@ import json
 
 def generate_recipes(PATH, verbose=False):
     # get list of items
-    bases = os.listdir(path=os.path.join(PATH, "/Far-Too-Many-Items-Resource-Template/assets/minecraft/textures/recipe_bases"))
-    modifiers = os.listdir(path=os.path.join(PATH, "/Far-Too-Many-Items-Resource-Template/assets/minecraft/textures/recipe_modifiers"))
+    bases = os.listdir(path=os.path.join(PATH, "Far-Too-Many-Items-Resource-Template", "assets", "minecraft", "textures", "recipe_bases"))
+    modifiers = os.listdir(path=os.path.join(PATH, "Far-Too-Many-Items-Resource-Template", "assets", "minecraft", "textures", "recipe_modifiers"))
 
     if ".DS_Store" in bases:
         bases.remove(".DS_Store")
@@ -46,7 +46,7 @@ def generate_recipes(PATH, verbose=False):
                     }
                 }
 
-                savepath = os.path.join(PATH, "/Far-Too-Many-Items-Datapack-2.0/data/ftmi/recipes/{}_{}_recipe.json".format(mod, name))
+                savepath = os.path.join(PATH, "Far-Too-Many-Items-Datapack-2.0", "data", "ftmi", "recipes", "{}_{}_recipe.json".format(mod, name))
 
                 try:
                     with open(savepath, 'w') as save:

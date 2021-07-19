@@ -1,4 +1,3 @@
-*.png
-*.json
-*.mcfunction
 .DS_STORE
+*.pyc
+/__pycache__

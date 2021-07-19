@@ -3,8 +3,8 @@ import json
 
 def generate_advancements(PATH, verbose=False):
     # get list of items
-    bases = os.listdir(path=os.path.join(PATH, "/Far-Too-Many-Items-Resource-Template/assets/minecraft/textures/recipe_bases"))
-    modifiers = os.listdir(path=os.path.join(PATH, "/Far-Too-Many-Items-Resource-Template/assets/minecraft/textures/recipe_modifiers"))
+    bases = os.listdir(path=os.path.join(PATH, "Far-Too-Many-Items-Resource-Template", "assets", "minecraft", "textures", "recipe_bases"))
+    modifiers = os.listdir(path=os.path.join(PATH, "Far-Too-Many-Items-Resource-Template", "assets", "minecraft", "textures", "recipe_modifiers"))
 
     if ".DS_Store" in bases:
         bases.remove(".DS_Store")
@@ -39,7 +39,7 @@ def generate_advancements(PATH, verbose=False):
                     }
                 }
 
-                savepath = os.path.join(PATH, "/Far-Too-Many-Items-Datapack-2.0/data/ftmi/advancements/{}_{}_advancement.json".format(mod, name))
+                savepath = os.path.join(PATH, "Far-Too-Many-Items-Datapack-2.0", "data", "ftmi", "advancements", "{}_{}_advancement.json".format(mod, name))
 
                 try:
                     with open(savepath, 'w') as save:

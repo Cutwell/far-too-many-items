@@ -3,8 +3,8 @@ import PIL.Image
 
 def generate_item_texture(PATH, verbose=False):
     # get list of items
-    baseitems = os.listdir(path=os.path.join(PATH, "/Far-Too-Many-Items-Resource-Template/assets/minecraft/textures/all_items"))
-    modifieritems = os.listdir(path=os.path.join(PATH, "/Far-Too-Many-Items-Resource-Template/assets/minecraft/textures/recipe_modifiers"))
+    baseitems = os.listdir(path=os.path.join(PATH, "Far-Too-Many-Items-Resource-Template", "assets", "minecraft", "textures", "all_items"))
+    modifieritems = os.listdir(path=os.path.join(PATH, "Far-Too-Many-Items-Resource-Template", "assets", "minecraft", "textures", "recipe_modifiers"))
 
     if ".DS_Store" in baseitems:
         baseitems.remove(".DS_Store")
@@ -80,16 +80,16 @@ def generate_item_texture(PATH, verbose=False):
     # extract all palettes
     baseitemsdict = {}
     for file in baseitems:
-        palette = extract_file_palette(os.path.join(PATH, "/Far-Too-Many-Items-Resource-Template/assets/minecraft/textures/all_items", file))
+        palette = extract_file_palette(os.path.join(PATH, "Far-Too-Many-Items-Resource-Template", "assets", "minecraft", "textures", "all_items"), file)
         baseitemsdict.update({file:palette})
 
     modifieritemsdict = {}
     for file in modifieritems:
-        palette = extract_file_palette(os.path.join(PATH, "/Far-Too-Many-Items-Resource-Template/assets/minecraft/textures/recipe_modifiers", file))
+        palette = extract_file_palette(os.path.join(PATH, "Far-Too-Many-Items-Resource-Template", "assets", "minecraft", "textures", "recipe_modifiers"), file)
         modifieritemsdict.update({file:palette})
 
     # use palette data to swap palettes - MVM
-    savepath = os.path.join(PATH, "/Far-Too-Many-Items-Resource-2.0/assets/minecraft/textures/item/custom")
+    savepath = os.path.join(PATH, "Far-Too-Many-Items-Resource-2.0", "assets", "minecraft", "textures", "item", "custom")
 
     for key, new_palette in modifieritemsdict.items():
 
@@ -103,4 +103,4 @@ def generate_item_texture(PATH, verbose=False):
 
                 savefile = "{}_{}.png".format(remove_key_png, remove_file_png)
 
-                apply_pallete_to_item(new_palette, initial_palette, openpath=os.path.join(PATH, "/Far-Too-Many-Items-Resource-Template/assets/minecraft/textures/all_items"), openfile=file, savepath=savepath, savefile=savefile)
+                apply_pallete_to_item(new_palette, initial_palette, openpath=os.path.join(PATH, "Far-Too-Many-Items-Resource-Template", "assets", "minecraft", "textures", "all_items"), openfile=file, savepath=savepath, savefile=savefile)

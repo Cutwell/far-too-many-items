@@ -3,7 +3,7 @@ import json
 
 def bow_overwrite(PATH, verbose=False):
     # get list of items
-    items = os.listdir(path=os.path.join(PATH, "/Far-Too-Many-Items-Resource-Template/assets/minecraft/textures/recipe_modifiers"))
+    items = os.listdir(path=os.path.join(PATH, "Far-Too-Many-Items-Resource-Template", "assets", "minecraft", "textures", "recipe_modifiers"))
 
     if ".DS_Store" in items:
         items.remove(".DS_Store")
@@ -76,7 +76,7 @@ def bow_overwrite(PATH, verbose=False):
 
         jsondict["overrides"].extend(bow_overrides)
 
-    savepath = os.path.join(PATH, "/Users/zachary/Documents/ftmi/Far-Too-Many-Items-Resource-2.0/assets/minecraft/models/item/crossbow.json")
+    savepath = os.path.join(PATH, "Far-Too-Many-Items-Resource-2.0", "assets", "minecraft", "models", "item", "crossbow.json")
     try:
         with open(savepath, 'w') as save:
             jsonraw = json.dumps(jsondict)

@@ -6,4 +6,4 @@ from ftmi.Resource.Items import generate_crossbow_standby_json
 from ftmi.Resource.Items import generate_custom_item_texture_json
 from ftmi.Resource.Items import generate_item_json
 from ftmi.Resource.Items import generate_item_texture
-from ftmi.Resource.Items import generate_file_structure
+from ftmi.Resource.Items import generate_resourcepack_structure
