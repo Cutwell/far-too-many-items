@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:firework_rocket_music_disc_mellohi_recipe"}}}, "rewards": {"function": "ftmi:fireworkrocketmusicdiscmellohi"}}

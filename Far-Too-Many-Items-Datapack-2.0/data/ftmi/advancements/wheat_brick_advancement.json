@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:wheat_brick_recipe"}}}, "rewards": {"function": "ftmi:wheatbrick"}}

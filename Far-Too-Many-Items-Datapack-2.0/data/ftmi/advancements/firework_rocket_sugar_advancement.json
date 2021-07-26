@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:firework_rocket_sugar_recipe"}}}, "rewards": {"function": "ftmi:fireworkrocketsugar"}}

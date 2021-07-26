@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:salmon_pumpkin_pie_recipe"}}}, "rewards": {"function": "ftmi:salmonpumpkinpie"}}

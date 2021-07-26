@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:nautilus_shell_feather_recipe"}}}, "rewards": {"function": "ftmi:nautilusshellfeather"}}

@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:feather_fermented_spider_eye_recipe"}}}, "rewards": {"function": "ftmi:featherfermentedspidereye"}}

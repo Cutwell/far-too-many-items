@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["aaa", "aba", "aaa"], "key": {"a": {"item": "minecraft:iron_nugget"}, "b": {"item": "minecraft:diamond_hoe"}}, "result": {"item": "minecraft:knowledge_book", "count": 1}}

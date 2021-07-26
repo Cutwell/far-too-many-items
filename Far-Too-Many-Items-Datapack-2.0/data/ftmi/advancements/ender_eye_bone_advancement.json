@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:ender_eye_bone_recipe"}}}, "rewards": {"function": "ftmi:endereyebone"}}

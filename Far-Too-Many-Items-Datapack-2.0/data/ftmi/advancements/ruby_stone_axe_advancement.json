@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:ruby_stone_axe_recipe"}}}, "rewards": {"function": "ftmi:rubystoneaxe"}}

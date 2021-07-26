@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:honey_bottle_rabbit_hide_recipe"}}}, "rewards": {"function": "ftmi:honeybottlerabbithide"}}

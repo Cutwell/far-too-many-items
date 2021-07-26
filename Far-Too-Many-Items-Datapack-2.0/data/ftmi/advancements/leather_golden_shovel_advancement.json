@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:leather_golden_shovel_recipe"}}}, "rewards": {"function": "ftmi:leathergoldenshovel"}}

@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:rabbit_hide_cooked_salmon_recipe"}}}, "rewards": {"function": "ftmi:rabbithidecookedsalmon"}}

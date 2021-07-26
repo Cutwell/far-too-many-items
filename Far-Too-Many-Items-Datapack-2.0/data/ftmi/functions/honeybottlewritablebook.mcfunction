@@ -1,0 +1,7 @@
+recipe take @s ftmi:honey_bottle_writable_book_recipe
+
+    advancement revoke @s only ftmi:honey_bottle_writable_book_advancement
+
+    give @s minecraft:writable_book{display:{Name:'[{"text":"honey_bottle writable_book"}]'},CustomModelData:4,AttributeModifiers:[{"AttributeName":"generic.flying_speed","Name":"generic.flying_speed","Amount":1,"Operation":0,"UUID":[I;1,2,3,4]}]}
+
+    clear @s minecraft:knowledge_book 1

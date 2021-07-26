@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:honey_bottle_dragon_breath_recipe"}}}, "rewards": {"function": "ftmi:honeybottledragonbreath"}}

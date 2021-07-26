@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:leather_spectral_arrow_recipe"}}}, "rewards": {"function": "ftmi:leatherspectralarrow"}}

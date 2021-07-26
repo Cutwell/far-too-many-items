@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:nether_star_bucket_recipe"}}}, "rewards": {"function": "ftmi:netherstarbucket"}}

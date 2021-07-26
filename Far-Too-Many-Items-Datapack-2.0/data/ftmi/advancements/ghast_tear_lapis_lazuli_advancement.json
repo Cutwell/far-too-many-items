@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:ghast_tear_lapis_lazuli_recipe"}}}, "rewards": {"function": "ftmi:ghasttearlapislazuli"}}

@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:rabbit_foot_black_dye_recipe"}}}, "rewards": {"function": "ftmi:rabbitfootblackdye"}}

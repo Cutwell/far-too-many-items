@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:bone_phantom_membrane_recipe"}}}, "rewards": {"function": "ftmi:bonephantommembrane"}}

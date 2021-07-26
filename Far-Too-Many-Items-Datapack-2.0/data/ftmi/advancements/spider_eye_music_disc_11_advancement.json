@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:spider_eye_music_disc_11_recipe"}}}, "rewards": {"function": "ftmi:spidereyemusicdisc11"}}

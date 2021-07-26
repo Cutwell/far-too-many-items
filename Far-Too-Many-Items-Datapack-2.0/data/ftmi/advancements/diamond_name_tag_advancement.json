@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:diamond_name_tag_recipe"}}}, "rewards": {"function": "ftmi:diamondnametag"}}

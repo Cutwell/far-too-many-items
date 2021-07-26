@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:dragon_breath_stone_shovel_recipe"}}}, "rewards": {"function": "ftmi:dragonbreathstoneshovel"}}

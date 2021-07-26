@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:diamond_iron_nugget_recipe"}}}, "rewards": {"function": "ftmi:diamondironnugget"}}

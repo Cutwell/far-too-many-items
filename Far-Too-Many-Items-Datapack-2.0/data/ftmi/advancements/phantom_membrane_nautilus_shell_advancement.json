@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:phantom_membrane_nautilus_shell_recipe"}}}, "rewards": {"function": "ftmi:phantommembranenautilusshell"}}

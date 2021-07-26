@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:sugar_diamond_sword_recipe"}}}, "rewards": {"function": "ftmi:sugardiamondsword"}}

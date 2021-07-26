@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:spider_eye_baked_potato_recipe"}}}, "rewards": {"function": "ftmi:spidereyebakedpotato"}}

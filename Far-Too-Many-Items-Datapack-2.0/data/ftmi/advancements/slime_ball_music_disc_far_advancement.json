@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:slime_ball_music_disc_far_recipe"}}}, "rewards": {"function": "ftmi:slimeballmusicdiscfar"}}

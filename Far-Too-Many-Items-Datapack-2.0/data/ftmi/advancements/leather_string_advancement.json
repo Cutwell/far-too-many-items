@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:leather_string_recipe"}}}, "rewards": {"function": "ftmi:leatherstring"}}

@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "pattern": ["aaa", "aba", "aaa"], "key": {"a": {"item": "minecraft:rabbit_foot"}, "b": {"item": "minecraft:ghast_tear"}}, "result": {"item": "minecraft:knowledge_book", "count": 1}}

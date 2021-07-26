@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:lapis_lazuli_charcoal_recipe"}}}, "rewards": {"function": "ftmi:lapislazulicharcoal"}}

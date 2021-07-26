@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:netherite_scrap_scute_recipe"}}}, "rewards": {"function": "ftmi:netheritescrapscute"}}

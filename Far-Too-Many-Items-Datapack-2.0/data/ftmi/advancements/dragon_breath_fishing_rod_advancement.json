@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:dragon_breath_fishing_rod_recipe"}}}, "rewards": {"function": "ftmi:dragonbreathfishingrod"}}

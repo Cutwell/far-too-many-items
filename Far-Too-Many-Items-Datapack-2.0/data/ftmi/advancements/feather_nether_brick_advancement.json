@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:feather_nether_brick_recipe"}}}, "rewards": {"function": "ftmi:feathernetherbrick"}}

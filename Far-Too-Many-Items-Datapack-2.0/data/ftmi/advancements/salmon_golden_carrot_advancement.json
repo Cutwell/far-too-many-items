@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:salmon_golden_carrot_recipe"}}}, "rewards": {"function": "ftmi:salmongoldencarrot"}}

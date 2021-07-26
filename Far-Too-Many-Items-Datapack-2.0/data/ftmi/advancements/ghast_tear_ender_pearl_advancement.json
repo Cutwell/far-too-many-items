@@ -1,0 +1,1 @@
+{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:ghast_tear_ender_pearl_recipe"}}}, "rewards": {"function": "ftmi:ghasttearenderpearl"}}
