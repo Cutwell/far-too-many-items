@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:poisonous_potato_broken_elytra_recipe"}}}, "rewards": {"function": "ftmi:poisonouspotatobrokenelytra"}}

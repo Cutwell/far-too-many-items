@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:sugar_kelp_recipe"}}}, "rewards": {"function": "ftmi:sugarkelp"}}

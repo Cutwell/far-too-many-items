@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:experience_bottle_lapis_lazuli_recipe"}}}, "rewards": {"function": "ftmi:experiencebottlelapislazuli"}}

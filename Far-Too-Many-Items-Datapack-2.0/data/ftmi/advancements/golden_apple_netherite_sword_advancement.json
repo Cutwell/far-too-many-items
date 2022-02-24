@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:golden_apple_netherite_sword_recipe"}}}, "rewards": {"function": "ftmi:goldenapplenetheritesword"}}

@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:gunpowder_nautilus_shell_recipe"}}}, "rewards": {"function": "ftmi:gunpowdernautilusshell"}}

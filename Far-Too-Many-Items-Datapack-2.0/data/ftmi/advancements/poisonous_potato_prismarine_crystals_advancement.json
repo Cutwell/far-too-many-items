@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:poisonous_potato_prismarine_crystals_recipe"}}}, "rewards": {"function": "ftmi:poisonouspotatoprismarinecrystals"}}

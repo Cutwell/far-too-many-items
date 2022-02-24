@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:sugar_bone_meal_recipe"}}}, "rewards": {"function": "ftmi:sugarbonemeal"}}

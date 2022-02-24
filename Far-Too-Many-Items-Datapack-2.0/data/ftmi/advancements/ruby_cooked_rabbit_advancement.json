@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:ruby_cooked_rabbit_recipe"}}}, "rewards": {"function": "ftmi:rubycookedrabbit"}}

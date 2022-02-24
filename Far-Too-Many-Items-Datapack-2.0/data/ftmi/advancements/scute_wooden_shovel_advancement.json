@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:scute_wooden_shovel_recipe"}}}, "rewards": {"function": "ftmi:scutewoodenshovel"}}

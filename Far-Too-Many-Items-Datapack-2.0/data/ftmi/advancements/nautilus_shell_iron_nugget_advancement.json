@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:nautilus_shell_iron_nugget_recipe"}}}, "rewards": {"function": "ftmi:nautilusshellironnugget"}}

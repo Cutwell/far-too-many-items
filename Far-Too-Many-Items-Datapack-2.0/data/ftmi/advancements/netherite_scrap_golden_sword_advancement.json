@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:netherite_scrap_golden_sword_recipe"}}}, "rewards": {"function": "ftmi:netheritescrapgoldensword"}}

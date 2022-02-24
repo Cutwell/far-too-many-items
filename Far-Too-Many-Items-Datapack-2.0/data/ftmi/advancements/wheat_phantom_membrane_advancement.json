@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:wheat_phantom_membrane_recipe"}}}, "rewards": {"function": "ftmi:wheatphantommembrane"}}

@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:experience_bottle_beetroot_soup_recipe"}}}, "rewards": {"function": "ftmi:experiencebottlebeetrootsoup"}}

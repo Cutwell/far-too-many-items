@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:wheat_glass_bottle_recipe"}}}, "rewards": {"function": "ftmi:wheatglassbottle"}}

@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:ghast_tear_dried_kelp_recipe"}}}, "rewards": {"function": "ftmi:ghastteardriedkelp"}}

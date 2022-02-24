@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:netherite_scrap_kelp_recipe"}}}, "rewards": {"function": "ftmi:netheritescrapkelp"}}

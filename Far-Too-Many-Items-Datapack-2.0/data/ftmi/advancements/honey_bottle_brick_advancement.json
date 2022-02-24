@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:honey_bottle_brick_recipe"}}}, "rewards": {"function": "ftmi:honeybottlebrick"}}

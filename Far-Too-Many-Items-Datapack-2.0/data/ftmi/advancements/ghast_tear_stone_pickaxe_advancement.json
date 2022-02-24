@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:ghast_tear_stone_pickaxe_recipe"}}}, "rewards": {"function": "ftmi:ghasttearstonepickaxe"}}

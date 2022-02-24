@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:iron_nugget_arrow_recipe"}}}, "rewards": {"function": "ftmi:ironnuggetarrow"}}

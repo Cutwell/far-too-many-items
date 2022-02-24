@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:bone_music_disc_ward_recipe"}}}, "rewards": {"function": "ftmi:bonemusicdiscward"}}

@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:netherite_scrap_stone_hoe_recipe"}}}, "rewards": {"function": "ftmi:netheritescrapstonehoe"}}

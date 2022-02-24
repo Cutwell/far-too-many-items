@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:experience_bottle_lead_recipe"}}}, "rewards": {"function": "ftmi:experiencebottlelead"}}

@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:rabbit_foot_heart_of_the_sea_recipe"}}}, "rewards": {"function": "ftmi:rabbitfootheartofthesea"}}

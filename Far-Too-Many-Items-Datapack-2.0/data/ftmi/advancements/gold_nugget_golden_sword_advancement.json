@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:gold_nugget_golden_sword_recipe"}}}, "rewards": {"function": "ftmi:goldnuggetgoldensword"}}

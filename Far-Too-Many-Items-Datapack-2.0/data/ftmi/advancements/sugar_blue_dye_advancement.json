@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:sugar_blue_dye_recipe"}}}, "rewards": {"function": "ftmi:sugarbluedye"}}

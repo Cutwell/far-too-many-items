@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:rotten_flesh_slime_ball_recipe"}}}, "rewards": {"function": "ftmi:rottenfleshslimeball"}}

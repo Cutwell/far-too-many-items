@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:wheat_leather_recipe"}}}, "rewards": {"function": "ftmi:wheatleather"}}

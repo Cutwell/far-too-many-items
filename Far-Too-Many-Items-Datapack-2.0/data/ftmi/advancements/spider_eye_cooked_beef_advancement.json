@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:spider_eye_cooked_beef_recipe"}}}, "rewards": {"function": "ftmi:spidereyecookedbeef"}}

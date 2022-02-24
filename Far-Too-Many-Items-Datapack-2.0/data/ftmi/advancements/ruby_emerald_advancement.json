@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:ruby_emerald_recipe"}}}, "rewards": {"function": "ftmi:rubyemerald"}}

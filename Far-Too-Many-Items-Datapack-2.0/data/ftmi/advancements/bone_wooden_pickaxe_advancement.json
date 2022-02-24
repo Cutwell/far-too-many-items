@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:bone_wooden_pickaxe_recipe"}}}, "rewards": {"function": "ftmi:bonewoodenpickaxe"}}

@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:netherite_scrap_gold_nugget_recipe"}}}, "rewards": {"function": "ftmi:netheritescrapgoldnugget"}}

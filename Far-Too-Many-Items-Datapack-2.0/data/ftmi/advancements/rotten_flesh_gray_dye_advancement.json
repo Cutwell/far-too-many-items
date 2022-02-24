@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:rotten_flesh_gray_dye_recipe"}}}, "rewards": {"function": "ftmi:rottenfleshgraydye"}}

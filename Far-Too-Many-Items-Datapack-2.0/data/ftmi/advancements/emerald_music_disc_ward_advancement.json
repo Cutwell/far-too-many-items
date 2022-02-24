@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:emerald_music_disc_ward_recipe"}}}, "rewards": {"function": "ftmi:emeraldmusicdiscward"}}

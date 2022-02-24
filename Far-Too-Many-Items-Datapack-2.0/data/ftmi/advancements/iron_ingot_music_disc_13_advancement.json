@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:iron_ingot_music_disc_13_recipe"}}}, "rewards": {"function": "ftmi:ironingotmusicdisc13"}}

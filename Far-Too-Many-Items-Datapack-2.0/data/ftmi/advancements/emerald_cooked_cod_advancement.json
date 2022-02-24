@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:emerald_cooked_cod_recipe"}}}, "rewards": {"function": "ftmi:emeraldcookedcod"}}

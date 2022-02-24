@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:iron_ingot_melon_slice_recipe"}}}, "rewards": {"function": "ftmi:ironingotmelonslice"}}

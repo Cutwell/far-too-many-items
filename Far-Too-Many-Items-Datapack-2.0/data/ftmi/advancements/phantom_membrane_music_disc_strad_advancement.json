@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:phantom_membrane_music_disc_strad_recipe"}}}, "rewards": {"function": "ftmi:phantommembranemusicdiscstrad"}}

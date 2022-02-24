@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:spider_eye_salmon_recipe"}}}, "rewards": {"function": "ftmi:spidereyesalmon"}}

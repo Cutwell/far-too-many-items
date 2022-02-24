@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:gold_nugget_music_disc_far_recipe"}}}, "rewards": {"function": "ftmi:goldnuggetmusicdiscfar"}}

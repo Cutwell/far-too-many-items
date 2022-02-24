@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:nautilus_shell_carrot_on_a_stick_recipe"}}}, "rewards": {"function": "ftmi:nautilusshellcarrotonastick"}}

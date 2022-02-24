@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:nether_star_broken_elytra_recipe"}}}, "rewards": {"function": "ftmi:netherstarbrokenelytra"}}

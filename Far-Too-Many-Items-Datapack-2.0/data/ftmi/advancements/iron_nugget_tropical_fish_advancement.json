@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:iron_nugget_tropical_fish_recipe"}}}, "rewards": {"function": "ftmi:ironnuggettropicalfish"}}

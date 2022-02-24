@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:poisonous_potato_light_blue_dye_recipe"}}}, "rewards": {"function": "ftmi:poisonouspotatolightbluedye"}}

@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:rabbit_foot_stone_sword_recipe"}}}, "rewards": {"function": "ftmi:rabbitfootstonesword"}}

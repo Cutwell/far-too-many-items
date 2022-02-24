@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:wheat_music_disc_mellohi_recipe"}}}, "rewards": {"function": "ftmi:wheatmusicdiscmellohi"}}

@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:emerald_magma_cream_recipe"}}}, "rewards": {"function": "ftmi:emeraldmagmacream"}}

@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:slime_ball_red_dye_recipe"}}}, "rewards": {"function": "ftmi:slimeballreddye"}}

@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:netherite_ingot_suspicious_stew_recipe"}}}, "rewards": {"function": "ftmi:netheriteingotsuspiciousstew"}}

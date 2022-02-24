@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:gold_ingot_light_blue_dye_recipe"}}}, "rewards": {"function": "ftmi:goldingotlightbluedye"}}

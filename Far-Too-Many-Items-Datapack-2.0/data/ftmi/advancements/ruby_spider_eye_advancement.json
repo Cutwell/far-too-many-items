@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:ruby_spider_eye_recipe"}}}, "rewards": {"function": "ftmi:rubyspidereye"}}

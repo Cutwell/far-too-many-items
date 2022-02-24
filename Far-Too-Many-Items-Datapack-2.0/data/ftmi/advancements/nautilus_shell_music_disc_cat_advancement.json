@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:nautilus_shell_music_disc_cat_recipe"}}}, "rewards": {"function": "ftmi:nautilusshellmusicdisccat"}}

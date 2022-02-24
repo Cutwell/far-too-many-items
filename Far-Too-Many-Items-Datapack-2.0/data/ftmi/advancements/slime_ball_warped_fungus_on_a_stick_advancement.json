@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:slime_ball_warped_fungus_on_a_stick_recipe"}}}, "rewards": {"function": "ftmi:slimeballwarpedfungusonastick"}}

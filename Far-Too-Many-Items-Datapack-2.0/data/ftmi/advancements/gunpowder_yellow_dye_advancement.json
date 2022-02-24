@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:gunpowder_yellow_dye_recipe"}}}, "rewards": {"function": "ftmi:gunpowderyellowdye"}}

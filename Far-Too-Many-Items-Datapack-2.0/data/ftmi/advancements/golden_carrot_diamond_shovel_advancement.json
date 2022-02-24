@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:golden_carrot_diamond_shovel_recipe"}}}, "rewards": {"function": "ftmi:goldencarrotdiamondshovel"}}

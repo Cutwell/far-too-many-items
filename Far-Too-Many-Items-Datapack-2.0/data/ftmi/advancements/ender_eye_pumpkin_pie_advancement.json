@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:ender_eye_pumpkin_pie_recipe"}}}, "rewards": {"function": "ftmi:endereyepumpkinpie"}}

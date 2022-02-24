@@ -1,1 +1,0 @@
-{"type": "minecraft:crafting_shaped", "pattern": ["aaa", "aba", "aaa"], "key": {"a": {"item": "minecraft:spider_eye"}, "b": {"item": "minecraft:red_dye"}}, "result": {"item": "minecraft:knowledge_book", "count": 1}}

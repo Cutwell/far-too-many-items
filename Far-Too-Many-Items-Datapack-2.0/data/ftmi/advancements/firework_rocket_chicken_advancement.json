@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:firework_rocket_chicken_recipe"}}}, "rewards": {"function": "ftmi:fireworkrocketchicken"}}

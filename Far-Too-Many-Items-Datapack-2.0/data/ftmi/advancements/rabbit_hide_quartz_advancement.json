@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:rabbit_hide_quartz_recipe"}}}, "rewards": {"function": "ftmi:rabbithidequartz"}}

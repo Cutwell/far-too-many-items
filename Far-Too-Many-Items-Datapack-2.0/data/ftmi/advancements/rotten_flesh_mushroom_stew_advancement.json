@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:rotten_flesh_mushroom_stew_recipe"}}}, "rewards": {"function": "ftmi:rottenfleshmushroomstew"}}

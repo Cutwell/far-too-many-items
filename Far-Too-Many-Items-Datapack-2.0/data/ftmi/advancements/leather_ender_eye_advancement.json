@@ -1,1 +1,0 @@
-{"criteria": {"Unlocked": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "ftmi:leather_ender_eye_recipe"}}}, "rewards": {"function": "ftmi:leatherendereye"}}
