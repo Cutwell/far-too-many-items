@@ -1,3 +1,11 @@
+# Mac OSX
 .DS_STORE
+
+# Python
 *.pyc
-/__pycache__
+**/__pycache__
+/venv
+
+# Release and template files
+**/Far-Too-Many-Items*
+*.zip
